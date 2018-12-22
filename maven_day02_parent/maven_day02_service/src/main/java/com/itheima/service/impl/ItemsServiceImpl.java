@@ -9,10 +9,19 @@ import org.springframework.stereotype.Service;
 @Service
 public class ItemsServiceImpl implements ItemsService {
 
+
     @Autowired
     private ItemsDao itemsDao;
 
     public Items findById(Integer id) {
         return itemsDao.findById(id);
     }
+
+    public void deleteById(Integer id) {
+     itemsDao.deleteById(id);
+    }
+
+
+
+
 }

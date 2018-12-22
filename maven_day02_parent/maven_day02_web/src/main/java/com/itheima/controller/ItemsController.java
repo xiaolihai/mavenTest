@@ -22,4 +22,9 @@ public class ItemsController {
         model.addAttribute("item", items);
         return "itemDetail";
     }
+    @RequestMapping("/deleteDetail")
+    public String deleteDetail(Model model){
+        itemsService.deleteById(2);
+        return "itemDetail";
+    }
 }

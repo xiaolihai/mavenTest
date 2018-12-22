@@ -30,5 +30,6 @@
 			</tr>
 		</table>
 	</form>
+<h3>删除成功</h3>
 </body>
 </html>
