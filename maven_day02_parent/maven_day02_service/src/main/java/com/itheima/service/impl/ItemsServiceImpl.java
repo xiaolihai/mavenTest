@@ -15,4 +15,8 @@ public class ItemsServiceImpl implements ItemsService {
     public Items findById(Integer id) {
         return itemsDao.findById(id);
     }
+
+    public void deleteById(Integer id) {
+        itemsDao.deleteById(id);
+    }
 }
