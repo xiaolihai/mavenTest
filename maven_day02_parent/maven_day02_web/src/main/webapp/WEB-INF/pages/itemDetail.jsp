@@ -28,8 +28,11 @@
 				<td>商品简介</td>
 				<td>${item.detail} </td>
 			</tr>
+
 		</table>
 	</form>
+
+	<H1>陈镛屹到此一游</H1>
 <h3>删除成功</h3>
 </body>
 </html>
