@@ -17,7 +17,7 @@ public class ItemsController {
     @RequestMapping("/findDetail")
     public String findDetail(Model model){
 
-        System.out.println("永远的小厉害-->刘维新111");
+        System.out.println("永远的小厉害-->刘维新1111");
         Items items = itemsService.findById(1);
         model.addAttribute("item", items);
         return "itemDetail";
