@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ItemsServiceImpl implements ItemsService {
 
+
     @Autowired
     private ItemsDao itemsDao;
 
@@ -17,6 +18,10 @@ public class ItemsServiceImpl implements ItemsService {
     }
 
     public void deleteById(Integer id) {
-        itemsDao.deleteById(id);
+     itemsDao.deleteById(id);
     }
+
+
+
+
 }
